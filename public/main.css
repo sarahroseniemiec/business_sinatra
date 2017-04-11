@@ -6,5 +6,227 @@ body font: font-family: 'Lato', sans-serif;
 */
 
 body {
-  background-color: pink;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*shop page*/
+#shop {
+  font-family: 'Questrial', sans-serif;
+  color: #2B2B2B;
+  font-size: 50px;
+  text-align: center;
+}
+
+.simage {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.simage:hover {
+  border: 5px solid #03EBA6;
+}
+
+.splantname {
+  width: 350px;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.sline {
+  text-align: center;
+  color: #8F8F8F;
+}
+
+.splat {
+  display: inline-block;
+  width: 350px;
+  margin: 25px;
+}
+
+/*shop modal*/
+.smodaloverlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.5);
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 100;
+}
+
+.smodal {
+  background-color: white;
+  width: 900px;
+  position: fixed;
+  z-index: 200;
+  top: 50px;
+  background-color: white;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.simagemodal {
+  width: 500px;
+  float: left;
+}
+
+.splanthead {
+  font-family: 'Questrial', sans-serif;
+  font-size: 40px;
+  color: #2B2B2B;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.sprice {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  color: #2B2B2B;
+  text-align: center;
+}
+
+.splantinfo {
+text-align: center;
+display: inline-block;
+}
+
+.slist {
+  font-family: 'Lato', sans-serif;
+  color: #8F8F8F;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+  list-style-position:inside;
+}
+
+.sclosebutt {
+  float: right;
+  display: inline;
+  border-style: none;
+  font-size: 20px;
+  background-color: white;
+}
+
+.sclosebutt:hover {
+  color: #03EBA6;
+}
+
+.scartbutt {
+  font-size: 20px;
+  background-color: #2B2B2B;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  border-style: none;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 40px auto auto auto;
+
+}
+
+.scartbutt:hover {
+  background-color: #03EBA6;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+/*contact page*/
+#contact {
+  font-family: 'Questrial', sans-serif;
 }
