@@ -4,21 +4,88 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Questrial" rel="stylesheet">
-    <link rel="shortcut icon" href="/images/logo.png">
-    <script type="text/javascript" src="main.js"> </script>
-    <title></title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Green Thumb Nursery</title>
   </head>
-  <header>
-    <nav>
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/shop">shop</a>
-        <a href="/contact">contact</a>
-    </nav>
-  </header>
+
   <body>
 
-    <%= yield %>
+    <header>
+
+      <nav>
+
+          <a href="/">home</a>
+
+          <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
+
+          <a href="/about">about</a>
+
+          <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
+
+          <a href="/shop">shop</a>
+
+          <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
+
+          <a href="/contact">contact</a>
+
+      </nav>
+
+
+      <!-- logo -->
+      <a href="/"><img id="logo" src="/images/GreenThumbNursery-logo.png" alt="logo"></a>
+
+
+    </header>
+
+
+      <!-- contentContainer div holds page content -->
+      <div id="contentContainer">
+
+
+          <%= yield %> <!-- all variable page content goes here -->
+
+
+          <footer>
+
+            <div id="followUs">
+
+              <p="cta">Follow Us</p>
+
+              <img id="fBook" src="images/facebook.png" alt="facebook">
+
+              <img id="tweet" src="images/twitter.png" alt="twitter">
+
+              <img id="insta" src="images/instagram.png" alt="instagram">
+
+              <img id="pin" src="images/pinterest.png" alt="pinterest">
+
+            </div>
+
+
+            <div id="signUp">
+
+              <p id="getNews">Get our newsletter</p>
+
+              <input id="emailInput" type="text" name="" value="" placeholder="email@email.com">
+
+              <button id="submit" type="submit" name="button">submit</button>
+
+            </div>
+
+          </footer>
+
+      </div>   <!-- end of contentContainer div -->
+
+
+
+      <!-- border div is outside the contentContainer div -->
+      <!-- This is simply a div that contains border in CSS. Placed at bottom so it shows on top of the rest of body content. -->
+      <div class="border">
+        <!-- leave empty, styled in CSS -->
+      </div>
+
+
+    <script type="text/javascript" src="main.js"> </script>
 
   </body>
 </html>
