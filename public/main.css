@@ -171,8 +171,6 @@ footer {
 /*this is the end of the layout template style*/
 
 
-
-
 /*home page style*/
 #h-carousel {
   width: 980;
@@ -312,11 +310,10 @@ footer {
 /*end home page style*/
 
 
-
 /*shop page*/
 #shop {
   font-family: 'Questrial', sans-serif;
-  color: #2B2B2B;
+  color: #03EBA6;
   font-size: 50px;
   text-align: center;
 }
@@ -328,7 +325,7 @@ footer {
 }
 
 .simage:hover {
-  border: 5px solid #03EBA6;
+  border: 3px solid #03EBA6;
 }
 
 .splantname {
@@ -442,17 +439,58 @@ button:focus {
 }
 /*end shop page style*/
 
-
-
 /*contact page*/
 #contact {
   font-family: 'Questrial', sans-serif;
+  color: #03EBA6;
+  font-size: 50px;
+  text-align: center;
+}
+
+#contactpic {
+  width: 500px;
+  float: right;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+  border: 2px solid #2B2B2B;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  border: 2px solid #2B2B2B;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.cbutt {
+  font-size: 20px;
+  background-color: #2B2B2B;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  border-style: none;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 40px auto auto auto;
+}
+
+.cbutt:hover {
+  background-color: #03EBA6;
+=======
   color: #2B2B2B;
 }
 /*end contact page style*/
-
-
-
 
 
 /*about page style*/
