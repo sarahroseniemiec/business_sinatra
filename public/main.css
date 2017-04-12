@@ -1,99 +1,280 @@
-/* pastel: #03EBA6
+/* This is our brand guide:
+pastel: #03EBA6
 off black: #2B2B2B
 gray: #8F8F8F
 headline font: font-family: 'Questrial', sans-serif;
 body font: font-family: 'Lato', sans-serif;
 */
 
+/*This section is the layout template CSS ----- DO NOT OVERWRITE -----*/
 body {
   font-family: 'Lato', sans-serif;
 }
 
+.border {
+  background-color: #03EBA6;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+}
+
+#contentContainer {
+  background-color: white;
+  position: absolute;
+  margin: auto;
+  top: 300px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 980px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
+
+#logo {
+  position: absolute;
+  margin: auto;
+  top: 280px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 200px;
+  height: 200px;
+}
+
+
+/* nav style*/
+nav {
+  position: absolute;
+  background-color: white;
+  top: 235px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+nav .leafIcon {
+  width: 15px;
+  height: 15px;
+}
+
+nav a {
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 20px;
+  color: #2B2B2B;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #03EBA6;
+}
+
+
+/*footer style*/
+footer {
+  background-image: url("http://www.snazzyspace.com/wallpapers/7b7b7b_grey-polka-dots.png");
+  position: relative;
+  width: 2000px;
+  height: 130px;
+  left: -400px;
+  padding: 50px;
+}
+
+/*followUs div*/
+#followUs {
+  background-color: white;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 250px;
+  height: 100px;
+}
+
+#cta {
+
+}
+
+#fBook {
+
+}
+
+#tweet {
 
+}
 
+#pin {
 
+}
 
+#signUp {
+  background-color: white;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 700px;
+  width: 250px;
+  height: 100px;
+}
+
+#getNews {
+
+}
+
+#emailInput {
+
+}
 
+#submit {
+
+}
+/*this is the end of the layout template style*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+
+
+
+/*home page style*/
+#h-carousel {
+  width: 980;
+  height: 400px;
+}
+
+
+#h-section1 {
+  height: 300px;
+}
+
+h1  {
+  background-color: #03EBA6;
+  position: relative;
+  margin: 0px;
+  margin-top: 30px;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#h-h1 {
+  background-color: white;
+  color: #03EBA6;
+  margin-bottom: 20px;
+}
+
+#sillA:hover {
+  opacity: .7;
+}
+
+#h-articles {
+  height: 355px;
+  padding-top: 20px;
+  padding-left: 0px;
+  /*background-color: #03EBA6;*/
+}
+
+#h-articles a {
+  color: #2B2B2B;
+  text-decoration: none;
+}
+#h-articles a:hover {
+  color: #8F8F8F;
+}
+
+#h-article1 {
+  border: 1px solid #a8a8a8;
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  padding-left: 20px;
+  width: 450px;
+  height: 290px;
+}
+
+#h-article1 h3 {
+
+}
+
+#h-article1 p {
+
+}
+
+#h-article1 img {
+  width: 400px;
+  height: 150px;
+}
+
+#h-article2 {
+  border: 1px solid #a8a8a8;
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  padding-left: 20px;
+  left: 35px;
+  width: 450px;
+  height: 290px;
+}
+
+#h-article2 h3 {
+  left: 50px;
+}
+
+#h-article2 p {
+
+}
+
+#h-article2 img {
+  width: 400px;
+  height: 150px;
+}
+
+h3  {
+  font-family: 'Questrial', sans-serif;
+}
+
+#h-byLine {
+  color: #8F8F8F;
+}
+
+#h-favorites {
+  margin: 0px;
+}
+
+#h-favorites h1 {
+  margin: 0px;
+}
+
+.favoritesContainer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 130px;
+}
+
+.h-favImg1 {
+  width: 25%;
+  height: 25%;
+}
+
+.h-favImg2 {
+  width: 25%;
+  height: 25%;
+}
+/*end home page style*/
 
 
 
@@ -224,9 +405,102 @@ display: inline-block;
 button:focus {
   outline: none;
 }
+/*end shop page style*/
+
 
 
 /*contact page*/
 #contact {
   font-family: 'Questrial', sans-serif;
+  color: #2B2B2B;
 }
+/*end contact page style*/
+
+
+
+
+
+
+/*about page style*/
+
+
+
+
+
+/*end about page style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*shop page style*/
+
+
+
+
+
+/*end shop page style*/
+
+
+
+
+
+
+/*contact page style*/
+
+
+
+
+
+/*end contact page style*/
