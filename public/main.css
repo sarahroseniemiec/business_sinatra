@@ -24,7 +24,7 @@ body {
   background-color: white;
   position: absolute;
   margin: auto;
-  top: 300px;
+  top: 310px;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -35,7 +35,6 @@ header {
   position: absolute;
   width: 100%;
 }
-
 
 #logo {
   position: absolute;
@@ -53,7 +52,7 @@ header {
 nav {
   position: absolute;
   background-color: white;
-  top: 235px;
+  top: 237px;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
@@ -95,12 +94,13 @@ footer {
   background-color: white;
   position: absolute;
   margin: auto;
+  padding: 10px;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
   width: 320px;
-  height: 100px;
+  height: 110px;
 }
 
 #cta {
@@ -108,23 +108,29 @@ footer {
 }
 
 #fBook {
-  width: 76px;
-  height: 76px;
+  position: relative;
+  top: 4px;
+  width: 74px;
+  height: 74px;
 }
 
 #tweet {
-  width: 70px;
-  height: 70px;
+  width: 68px;
+  height: 68px;
 }
 
 #insta {
-  width: 80px;
-  height: 80px;
+  position: relative;
+  top: 5px;
+  width: 81px;
+  height: 81px;
 }
 
 #pin {
-  width: 65px;
-  height: 65px;
+  position: relative;
+  top: 0px;
+  width: 59px;
+  height: 59px;
 }
 
 #signUp {
@@ -195,7 +201,6 @@ footer {
   height: 355px;
   padding-top: 20px;
   padding-left: 0px;
-  /*background-color: #03EBA6;*/
 }
 
 #h-articles a {
@@ -439,87 +444,55 @@ button:focus {
 
 
 
-
 /*about page style*/
 
+#a-hero {
 
+}
 
+#a-heroImg {
+  width: 980;
+  height: 400px;
+}
 
+#a-section1 {
 
+}
+
+#a-h1 {
+  background-color: white;
+  border-bottom: 1px solid #03EBA6;
+  font-family: 'Questrial', sans-serif;
+  color: #03EBA6;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.a-p {
+  line-height: 25px;
+}
+
+#a-sig {
+  width: 125px;
+  height: 100px;
+}
+
+#a-section2 {
+  border: 1px solid black;
+  width: 980px;
+}
+
+/*using style from shop page for consistency*/
+.a-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.a-cust {
+  display: inline-block;
+  width: 250px;
+  margin: 30px;
+}
 /*end about page style*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*shop page style*/
-
-
-
-
-
-/*end shop page style*/
-
-
-
-
-
-
-/*contact page style*/
-
-
-
-
-
-/*end contact page style*/
