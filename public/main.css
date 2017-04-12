@@ -85,7 +85,7 @@ footer {
   background-image: url("http://www.snazzyspace.com/wallpapers/7b7b7b_grey-polka-dots.png");
   position: relative;
   width: 2000px;
-  height: 130px;
+  height: 170px;
   left: -400px;
   padding: 50px;
 }
@@ -99,7 +99,7 @@ footer {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  width: 250px;
+  width: 320px;
   height: 100px;
 }
 
@@ -108,15 +108,23 @@ footer {
 }
 
 #fBook {
-
+  width: 76px;
+  height: 76px;
 }
 
 #tweet {
+  width: 70px;
+  height: 70px;
+}
 
+#insta {
+  width: 80px;
+  height: 80px;
 }
 
 #pin {
-
+  width: 65px;
+  height: 65px;
 }
 
 #signUp {
@@ -140,6 +148,7 @@ footer {
 }
 
 #submit {
+  background-color: #03EBA6;
 
 }
 /*this is the end of the layout template style*/
@@ -158,11 +167,10 @@ footer {
   height: 300px;
 }
 
-h1  {
+#home-h1  {
   background-color: #03EBA6;
   position: relative;
   margin: 0px;
-  margin-top: 30px;
   top: 0px;
   left: 0px;
   padding: 10px;
@@ -173,8 +181,10 @@ h1  {
 
 #h-h1 {
   background-color: white;
+  font-family: 'Questrial', sans-serif;
   color: #03EBA6;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #sillA:hover {
@@ -243,7 +253,7 @@ h1  {
   height: 150px;
 }
 
-h3  {
+#h-h3  {
   font-family: 'Questrial', sans-serif;
 }
 
@@ -256,23 +266,32 @@ h3  {
 }
 
 #h-favorites h1 {
-  margin: 0px;
+  margin-top: 10px;
 }
 
-.favoritesContainer {
-  margin-top: 40px;
+.h-favoritesContainer {
+  margin-top: 35px;
   margin-bottom: 40px;
-  padding-bottom: 130px;
+  padding-left: 20px;
 }
 
-.h-favImg1 {
-  width: 25%;
-  height: 25%;
+/*using style from shop page for consistency*/
+.h-simage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 
-.h-favImg2 {
-  width: 25%;
-  height: 25%;
+.h-simage:hover {
+  border: 7px solid #03EBA6;
+  width: 235px;
+  height: 235px;
+}
+
+.h-splat {
+  display: inline-block;
+  width: 250px;
+  margin: 30px;
 }
 /*end home page style*/
 
