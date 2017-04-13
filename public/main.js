@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
+
    //nav scroll javascript & cart
    var navBar = document.querySelector("#nav")
    var basket = document.querySelector("#basket")
