@@ -85,7 +85,7 @@ header {
 }
 
 /* nav style*/
-nav {
+.startnav {
   position: absolute;
   background-color: white;
   top: 237px;
@@ -114,6 +114,16 @@ nav a:hover {
   color: #03EBA6;
 }
 
+.fixnav {
+  position: fixed;
+  background-color: white;
+  top: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
 
 /*footer style*/
 footer {
@@ -132,7 +142,6 @@ footer {
   width: 980;
   height: 400px;
 }
-
 
 #h-section1 {
   height: 300px;
@@ -289,6 +298,8 @@ footer {
 
 .simage:hover {
   border: 7px solid #03EBA6;
+  width: 340px;
+  height: 340px;
 }
 
 .splantname {
@@ -349,7 +360,7 @@ footer {
 .sprice {
   font-family: 'Questrial', sans-serif;
   font-size: 30px;
-  color: #2B2B2B;
+  color: #03EBA6;
   text-align: center;
 }
 
@@ -402,6 +413,7 @@ button:focus {
 }
 /*end shop page style*/
 
+
 /*contact page*/
 #contact {
   background-color: white;
@@ -417,28 +429,37 @@ button:focus {
 }
 
 #contactpic {
-  width: 500px;
+  width: 400px;
   float: right;
 }
 
-input:focus {
-    outline: none;
+.cform {
+  text-align: center;
 }
 
-input {
-  border: 2px solid #2B2B2B;
+.cinput {
+  border: 1px solid #8F8F8F;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
+  margin: 10px 10px 20px 10px;
+  padding: 5px;
+}
+
+.cinput:focus {
+    outline: none;
+    border: 2px solid #2B2B2B;
+}
+
+textarea {
+  border: 1px solid #8F8F8F;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding: 5px;
 }
 
 textarea:focus {
   outline: none;
-}
-
-textarea {
   border: 2px solid #2B2B2B;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
 }
 
 .cbutt {
@@ -451,7 +472,7 @@ textarea {
   padding: 10px;
   display: block;
   text-align: center;
-  margin: 40px auto auto auto;
+  margin: 40px auto 40px auto;
 }
 
 .cbutt:hover {
@@ -462,17 +483,9 @@ textarea {
 
 
 /*about page style*/
-#a-hero {
-
-}
-
 #a-heroImg {
   width: 980;
   height: 400px;
-}
-
-#a-section1 {
-
 }
 
 #a-h1 {

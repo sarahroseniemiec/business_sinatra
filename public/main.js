@@ -1,4 +1,21 @@
 document.addEventListener("DOMContentLoaded", function (event) {
+
+   //nav scroll javascript
+   var navBar = document.querySelector("#nav")
+
+
+   window.addEventListener("scroll", function (e) {
+     if (window.pageYOffset > 200) {
+       navBar.classList.remove("startnav");
+       navBar.classList.add("fixnav");
+     } else {
+       navBar.classList.remove("fixnav");
+       navBar.classList.add("startnav");
+     }
+
+   }, true)
+
+
   // shop javascript
   var sModalOverlay = document.querySelector(".smodaloverlay")
   var sCloseButt = document.querySelectorAll(".sclosebutt")
