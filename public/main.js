@@ -1,12 +1,32 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
 
-   //nav scroll javascript
+   //nav scroll javascript & cart
    var navBar = document.querySelector("#nav")
+   var basket = document.querySelector("#basket")
+   var sCartButt = document.querySelectorAll(".scartbutt")
+   var cartNum = document.querySelector("#cartnum")
+   var cartModal = document.querySelector("#cartmodal")
+   var clearButton = document.querySelector("#clearbutton")
+   var clearClose = document.querySelector("#clearclose")
+   var cModalOverlay = document.querySelector("#cmodaloverlay")
+   var itemNum = document.querySelector("#itemnum")
+
+   cartNum.innerHTML = "0"
+   cartModal.style.display = "none"
+   cModalOverlay.style.display = "none"
+
+   var cartValue = Cookies.get("cartnumber")
+    cartNum.innerHTML = cartValue
+    itemNum.innerHTML = "You have " + cartValue + " items in your cart."
+   if (cartValue === undefined){
+     cartNum.innerHTML = 0
+     itemNum.innerHTML = "Your cart is empty."
+   }
 
 
    window.addEventListener("scroll", function (e) {
-     if (window.pageYOffset > 200) {
+     if (window.pageYOffset > 205) {
        navBar.classList.remove("startnav");
        navBar.classList.add("fixnav");
      } else {
@@ -14,7 +34,51 @@ document.addEventListener("DOMContentLoaded", function (event) {
        navBar.classList.add("startnav");
      }
 
-   }, true)
+   })
+
+
+   for(var i = 0; i < sCartButt.length; i++)
+   {
+     sCartButt[i].addEventListener("click", function () {
+       if (Cookies.get("cartnumber")){
+         var cartValue = Cookies.get("cartnumber")
+         Cookies.set("cartnumber", ++cartValue)
+         cartNum.innerHTML = cartValue
+         itemNum.innerHTML = "You have " + cartValue + " items in your cart."
+       } else {
+         Cookies.set("cartnumber", 1)
+         var cartValue = Cookies.get("cartnumber")
+         cartNum.innerHTML = cartValue
+         itemNum.innerHTML = "You have " + cartValue + " items in your cart."
+       }
+
+
+     })
+   }
+
+   basket.addEventListener("click", function () {
+     cartModal.style.display = "block"
+     cModalOverlay.style.display = "block"
+   })
+
+   clearButton.addEventListener("click", function () {
+   Cookies.expire("cartnumber")
+   cartNum.innerHTML = 0
+   itemNum.innerHTML = "Your cart is empty."
+
+ })
+
+ clearClose.addEventListener("click", function () {
+   cartModal.style.display = "none"
+   cModalOverlay.style.display = "none"
+ })
+
+
+
+
+
+
+
 
 
 
@@ -118,6 +182,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       sModalSeven.style.display = "none"
       sModalEight.style.display = "none"
       sModalNine.style.display = "none"
+
     })
   }
 
