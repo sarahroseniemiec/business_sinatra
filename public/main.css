@@ -51,37 +51,10 @@ header {
 #followUs {
   position: absolute;
   margin: 0px;
-  top: 60px;
+  top: 50px;
   left: 20px;
-  width: 320px;
-  height: 70px;
-}
-
-#fBook {
-  display: block;
-  top: 4px;
-  width: 74px;
-  height: 74px;
-}
-
-#tweet {
-  display: block;
-  width: 68px;
-  height: 68px;
-}
-
-#insta {
-  display: block;
-  top: 5px;
-  width: 81px;
-  height: 81px;
-}
-
-#pin {
-  display: block;
-  top: 0px;
-  width: 59px;
-  height: 59px;
+  width: 61px;
+  height: 248px;
 }
 
 /* nav style*/
@@ -130,7 +103,7 @@ footer {
   background-image: url("http://www.snazzyspace.com/wallpapers/7b7b7b_grey-polka-dots.png");
   position: relative;
   width: 100%;
-  height: 280px;
+  height: 310px;
   left: 0px;
   bottom: -20px;
 }
@@ -195,14 +168,6 @@ footer {
   height: 290px;
 }
 
-#h-article1 h3 {
-
-}
-
-#h-article1 p {
-
-}
-
 #h-article1 img {
   width: 400px;
   height: 150px;
@@ -221,10 +186,6 @@ footer {
 
 #h-article2 h3 {
   left: 50px;
-}
-
-#h-article2 p {
-
 }
 
 #h-article2 img {
@@ -298,8 +259,8 @@ footer {
 
 .simage:hover {
   border: 7px solid #03EBA6;
-  width: 340px;
-  height: 340px;
+  width: 337px;
+  height: 337px;
 }
 
 .splantname {
@@ -317,6 +278,10 @@ footer {
   display: inline-block;
   width: 350px;
   margin: 25px;
+}
+
+#sCactus {
+  padding-bottom: 300px;
 }
 
 /*shop modal*/
@@ -435,6 +400,7 @@ button:focus {
 
 .cform {
   text-align: center;
+  margin-bottom: 390px;
 }
 
 .cinput {
@@ -455,6 +421,7 @@ textarea {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   padding: 5px;
+  padding-bottom: 15px;
 }
 
 textarea:focus {
@@ -478,6 +445,11 @@ textarea:focus {
 .cbutt:hover {
   background-color: #03EBA6;
   color: #2B2B2B;
+}
+
+#formCont{
+  position: relative;
+  top: 40px;
 }
 /*end contact page style*/
 
@@ -507,7 +479,7 @@ textarea:focus {
 
 .a-section2 {
   width: 980px;
-  padding-bottom: 40px;
+  padding-bottom: 300px;
 }
 
 /*using style from shop page for consistency*/
