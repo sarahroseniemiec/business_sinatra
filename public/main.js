@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
    window.addEventListener("scroll", function (e) {
-     if (window.pageYOffset > 200) {
+     if (window.pageYOffset > 205) {
        navBar.classList.remove("startnav");
        navBar.classList.add("fixnav");
      } else {
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
        navBar.classList.add("startnav");
      }
 
-   }, true)
+   })
 
 
   // shop javascript
