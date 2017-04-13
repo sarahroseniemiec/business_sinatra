@@ -22,7 +22,7 @@ body {
 
 #contentContainer {
   background-color: white;
-  position: absolute;
+  position: relative;
   margin: auto;
   top: 310px;
   right: 0px;
@@ -47,6 +47,42 @@ header {
   height: 200px;
 }
 
+/*followUs div*/
+#followUs {
+  position: absolute;
+  margin: 0px;
+  top: 60px;
+  left: 20px;
+  width: 320px;
+  height: 70px;
+}
+
+#fBook {
+  display: block;
+  top: 4px;
+  width: 74px;
+  height: 74px;
+}
+
+#tweet {
+  display: block;
+  width: 68px;
+  height: 68px;
+}
+
+#insta {
+  display: block;
+  top: 5px;
+  width: 81px;
+  height: 81px;
+}
+
+#pin {
+  display: block;
+  top: 0px;
+  width: 59px;
+  height: 59px;
+}
 
 /* nav style*/
 nav {
@@ -83,90 +119,10 @@ nav a:hover {
 footer {
   background-image: url("http://www.snazzyspace.com/wallpapers/7b7b7b_grey-polka-dots.png");
   position: relative;
-  width: 2000px;
-  height: 170px;
-  left: -400px;
-  padding: 50px;
-}
-
-.footerContainer {
-  background-color: white;
-  position: absolute;
-  margin: auto;
-  padding: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
+  width: 100%;
+  height: 280px;
   left: 0px;
-  width: 600px;
-  height: 200px;
-}
-
-/*followUs div*/
-#followUs {
-  /*position: absolute;
-  margin: auto;
-  padding: 10px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;*/
-  width: 320px;
-  height: 110px;
-}
-
-#cta {
-
-}
-
-#fBook {
-  position: relative;
-  top: 4px;
-  width: 74px;
-  height: 74px;
-}
-
-#tweet {
-  width: 68px;
-  height: 68px;
-}
-
-#insta {
-  position: relative;
-  top: 5px;
-  width: 81px;
-  height: 81px;
-}
-
-#pin {
-  position: relative;
-  top: 0px;
-  width: 59px;
-  height: 59px;
-}
-
-#signUp {
-  position: absolute;
-  margin: auto;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 700px;
-  width: 250px;
-  height: 100px;
-}
-
-#getNews {
-
-}
-
-#emailInput {
-
-}
-
-#submit {
-  background-color: #03EBA6;
-
+  bottom: -20px;
 }
 /*this is the end of the layout template style*/
 
@@ -287,6 +243,7 @@ footer {
   margin-top: 35px;
   margin-bottom: 40px;
   padding-left: 20px;
+  padding-bottom: 280px;
 }
 
 /*using style from shop page for consistency*/
@@ -312,10 +269,16 @@ footer {
 
 /*shop page*/
 #shop {
+  background-color: white;
+  border-bottom: 1px solid #03EBA6;
+  border-top: 1px solid #03EBA6;
   font-family: 'Questrial', sans-serif;
   color: #03EBA6;
-  font-size: 50px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .simage {
@@ -325,7 +288,7 @@ footer {
 }
 
 .simage:hover {
-  border: 3px solid #03EBA6;
+  border: 7px solid #03EBA6;
 }
 
 .splantname {
@@ -391,8 +354,8 @@ footer {
 }
 
 .splantinfo {
-text-align: center;
-display: inline-block;
+  text-align: center;
+  display: inline-block;
 }
 
 .slist {
@@ -441,10 +404,16 @@ button:focus {
 
 /*contact page*/
 #contact {
+  background-color: white;
+  border-bottom: 1px solid #03EBA6;
+  border-top: 1px solid #03EBA6;
   font-family: 'Questrial', sans-serif;
   color: #03EBA6;
-  font-size: 50px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 #contactpic {
@@ -487,14 +456,12 @@ textarea {
 
 .cbutt:hover {
   background-color: #03EBA6;
-=======
   color: #2B2B2B;
 }
 /*end contact page style*/
 
 
 /*about page style*/
-
 #a-hero {
 
 }
@@ -511,25 +478,23 @@ textarea {
 #a-h1 {
   background-color: white;
   border-bottom: 1px solid #03EBA6;
+  border-top: 1px solid #03EBA6;
   font-family: 'Questrial', sans-serif;
   color: #03EBA6;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .a-p {
-  line-height: 25px;
+  line-height: 30px;
 }
 
-#a-sig {
-  width: 125px;
-  height: 100px;
-}
-
-#a-section2 {
-  border: 1px solid black;
+.a-section2 {
   width: 980px;
+  padding-bottom: 40px;
 }
 
 /*using style from shop page for consistency*/
@@ -539,8 +504,18 @@ textarea {
   border-radius: 50%;
 }
 
-.a-cust {
+.a-cust1 {
   display: inline-block;
+  position: relative;
+  left: 180px;
+  width: 250px;
+  margin: 30px;
+}
+
+.a-cust2 {
+  display: inline-block;
+  position: relative;
+  left: 180px;
   width: 250px;
   margin: 30px;
 }
