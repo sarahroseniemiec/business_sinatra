@@ -47,7 +47,15 @@ header {
   height: 200px;
 }
 
-
+/*followUs div*/
+#followUs {
+  position: absolute;
+  margin: 0px;
+  top: 50px;
+  left: 20px;
+  width: 61px;
+  height: 248px;
+}
 
 /* nav style*/
 .startnav {
@@ -90,92 +98,12 @@ nav a:hover {
   z-index: 10;
 }
 
-
-/*footer style*/
-/*footer {
-  background-image: url("http://www.snazzyspace.com/wallpapers/7b7b7b_grey-polka-dots.png");
-  position: relative;
-  width: 2000px;
-  height: 170px;
-  left: -400px;
-  padding: 50px;
-}*/
-
-
-/*followUs div*/
-#followUs {
-  position: absolute;
-  margin: 0px;
-  top: 60px;
-  left: 20px;
-  width: 320px;
-  height: 70px;
-}
-
-#fBook {
-  display: block;
-  top: 4px;
-  width: 74px;
-  height: 74px;
-}
-
-#tweet {
-  display: block;
-  width: 68px;
-  height: 68px;
-}
-
-#insta {
-  display: block;
-  top: 5px;
-  width: 81px;
-  height: 81px;
-}
-
-#pin {
-  display: block;
-  top: 0px;
-  width: 59px;
-  height: 59px;
-}
-
-/* nav style*/
-/*nav {
-  position: absolute;
-  background-color: white;
-  top: 237px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 100%;
-  text-align: center;
-}
-
-nav .leafIcon {
-  width: 15px;
-  height: 15px;
-}
-
-nav a {
-  padding-left: 80px;
-  padding-right: 80px;
-  font-size: 20px;
-  color: #2B2B2B;
-  text-decoration: none;
-
-}
-
-nav a:hover {
-  text-decoration: underline;
-  color: #03EBA6;
-}*/
-
-
 /*footer style*/
 footer {
   background-image: url("http://www.snazzyspace.com/wallpapers/7b7b7b_grey-polka-dots.png");
   position: relative;
   width: 100%;
-  height: 280px;
+  height: 310px;
   left: 0px;
   bottom: -20px;
 }
@@ -187,7 +115,6 @@ footer {
   width: 980;
   height: 400px;
 }
-
 
 #h-section1 {
   height: 300px;
@@ -241,14 +168,6 @@ footer {
   height: 290px;
 }
 
-#h-article1 h3 {
-
-}
-
-#h-article1 p {
-
-}
-
 #h-article1 img {
   width: 400px;
   height: 150px;
@@ -267,10 +186,6 @@ footer {
 
 #h-article2 h3 {
   left: 50px;
-}
-
-#h-article2 p {
-
 }
 
 #h-article2 img {
@@ -343,9 +258,9 @@ footer {
 }
 
 .simage:hover {
-  border: 5px solid #03EBA6;
-  width: 340px;
-  height: 340px;
+  border: 7px solid #03EBA6;
+  width: 337px;
+  height: 337px;
 
 }
 
@@ -364,6 +279,10 @@ footer {
   display: inline-block;
   width: 350px;
   margin: 25px;
+}
+
+#sCactus {
+  padding-bottom: 300px;
 }
 
 /*shop modal*/
@@ -460,6 +379,7 @@ button:focus {
 }
 /*end shop page style*/
 
+
 /*contact page*/
 #contact {
   background-color: white;
@@ -481,6 +401,7 @@ button:focus {
 
 .cform {
   text-align: center;
+  margin-bottom: 390px;
 }
 
 .cinput {
@@ -497,12 +418,12 @@ button:focus {
     border: 2px solid #2B2B2B;
 }
 
-
 textarea {
   border: 1px solid #8F8F8F;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   padding: 5px;
+  padding-bottom: 15px;
 }
 
 textarea:focus {
@@ -525,22 +446,20 @@ textarea:focus {
 
 .cbutt:hover {
   background-color: #03EBA6;
+  color: #2B2B2B;
+}
+
+#formCont{
+  position: relative;
+  top: 40px;
 }
 /*end contact page style*/
 
 
 /*about page style*/
-#a-hero {
-
-}
-
 #a-heroImg {
   width: 980;
   height: 400px;
-}
-
-#a-section1 {
-
 }
 
 #a-h1 {
@@ -562,7 +481,7 @@ textarea:focus {
 
 .a-section2 {
   width: 980px;
-  padding-bottom: 40px;
+  padding-bottom: 300px;
 }
 
 /*using style from shop page for consistency*/
