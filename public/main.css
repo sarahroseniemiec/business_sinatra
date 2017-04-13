@@ -75,11 +75,18 @@ nav .leafIcon {
 
 #basket {
   font-size: 35px;
-
+  margin: 0px;
 }
 
 #basket:hover {
   color: #03EBA6;
+}
+
+#cartnum {
+  position: relative;
+  top: 8px;
+  left: -75px;
+  margin: 0px;
 }
 
 #cartmodal {
@@ -162,8 +169,8 @@ nav .leafIcon {
 }
 
 nav a {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 75px;
+  padding-right: 75px;
   font-size: 20px;
   color: #2B2B2B;
   text-decoration: none;
