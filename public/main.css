@@ -190,10 +190,10 @@ nav a:hover {
 footer {
   background-image: url("http://www.snazzyspace.com/wallpapers/7b7b7b_grey-polka-dots.png");
   position: relative;
-  width: 100%;
-  height: 310px;
-  left: 0px;
-  bottom: -20px;
+  width: 112%;
+  height: 225px;
+  left: -10px;
+  bottom: -130px;
 }
 /*this is the end of the layout template style*/
 
