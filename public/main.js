@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
+
    //nav scroll javascript
    var navBar = document.querySelector("#nav")
 
@@ -14,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
      }
 
    }, true)
+
 
 
   // shop javascript
