@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
      itemNum.innerHTML = "Your cart is empty."
    }
 
-
+  // nav bar JS
    window.addEventListener("scroll", function (e) {
      if (window.pageYOffset > 205) {
        navBar.classList.remove("startnav");
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
      }
 
    })
-
+// end nav bar JS
 
    for(var i = 0; i < sCartButt.length; i++)
    {
@@ -104,6 +104,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   var sModalEight = document.querySelector("#smodaleight")
   var sModalNine = document.querySelector("#smodalnine")
 
+
   sModalOverlay.style.display = "none"
   sModalOne.style.display = "none"
   sModalTwo.style.display = "none"
@@ -168,6 +169,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     sModalOverlay.style.display = "block"
 
   })
+
+
 
   for(var i = 0; i < sCloseButt.length; i++)
   {

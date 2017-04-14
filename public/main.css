@@ -53,8 +53,32 @@ header {
   margin: 0px;
   top: 50px;
   left: 20px;
-  width: 61px;
-  height: 248px;
+  width: 47px;
+  height: 192px;
+}
+
+#fBook {
+  display: block;
+  width: 47px;
+  height: 48px;
+}
+
+#tweet{
+  display: block;
+  width: 47px;
+  height: 48px;
+}
+
+#pin {
+  display: block;
+  width: 47px;
+  height: 48px;
+}
+
+#insta{
+  display: block;
+  width: 47px;
+  height: 48px;
 }
 
 /* nav style*/
@@ -563,7 +587,8 @@ textarea:focus {
   border-top: 1px solid #03EBA6;
   font-family: 'Questrial', sans-serif;
   color: #03EBA6;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -576,7 +601,8 @@ textarea:focus {
 
 .a-section2 {
   width: 980px;
-  padding-bottom: 300px;
+  padding-top: 20px;
+  padding-bottom: 270px;
 }
 
 /*using style from shop page for consistency*/
