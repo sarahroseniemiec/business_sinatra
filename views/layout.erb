@@ -12,85 +12,89 @@
 
   <body>
 
-    <header>
+    <div class="mainContainer">
+
+      <header>
 
 
-      <nav class="startnav" id="nav">
+        <nav class="startnav" id="nav">
 
-          <a href="/">home</a>
+            <a href="/">home</a>
 
-          <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
+            <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
 
-          <a href="/about">about</a>
+            <a href="/about">about</a>
 
-          <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
+            <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
 
-          <a href="/shop">shop</a>
+            <a href="/shop">shop</a>
 
-          <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
+            <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
 
-          <a href="/contact">contact</a>
+            <a href="/contact">contact</a>
 
-          <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
+            <img class="leafIcon" src="images/leafIcon.png" alt="leaf">
 
-          <a href="#"><i id="basket" class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+            <a href="#"><i id="basket" class="fa fa-shopping-basket" aria-hidden="true"></i></a>
 
-          <span id="cartnum"> </span>
+            <span id="cartnum"> </span>
 
-      </nav>
+        </nav>
 
-      <div id="cartmodal">
-        <button id="clearclose" type="button" name="button">X</button>
-        <p id="itemnum"> </p>
-        <button id="clearbutton" type="button" name="button">clear cart</button>
-        <a id="checkout" href="https://www.paypal.com/us/home" target="blank">checkout</a>
-      </div>
+        <div id="cartmodal">
+          <button id="clearclose" type="button" name="button">X</button>
+          <p id="itemnum"> </p>
+          <button id="clearbutton" type="button" name="button">clear cart</button>
+          <a id="checkout" href="https://www.paypal.com/us/home" target="blank">checkout</a>
+        </div>
 
-      <div id="cmodaloverlay">
+        <div id="cmodaloverlay">
+          </div>
+
+
+        <!-- logo -->
+        <a href="/"><img id="logo" src="/images/GreenThumbNursery-logo.png" alt="logo"></a>
+
+
+        <div id="followUs">
+
+          <a href="https://www.facebook.com/" target="_blank"><img id="fBook" src="images/fBook.png" alt="Facebook"></a>
+
+          <a href="https://twitter.com/" target="_blank"><img id="tweet" src="images/tweet.png" alt="Twitter"></a>
+
+          <a href="https://www.pinterest.com/" target="_blank"><img id="pin" src="images/pin.png" alt="Pinterest"></a>
+
+          <a href="https://www.instagram.com/?hl=en" target="_blank"><img id="insta" src="images/insta.png" alt="Instagram"></a>
+
         </div>
 
 
-      <!-- logo -->
-      <a href="/"><img id="logo" src="/images/GreenThumbNursery-logo.png" alt="logo"></a>
+      </header>
 
 
-      <div id="followUs">
-
-        <a href="https://www.facebook.com/" target="_blank"><img id="fBook" src="images/fBook.png" alt="Facebook"></a>
-
-        <a href="https://twitter.com/" target="_blank"><img id="tweet" src="images/tweet.png" alt="Twitter"></a>
-
-        <a href="https://www.pinterest.com/" target="_blank"><img id="pin" src="images/pin.png" alt="Pinterest"></a>
-
-        <a href="https://www.instagram.com/?hl=en" target="_blank"><img id="insta" src="images/insta.png" alt="Instagram"></a>
-
-      </div>
+        <!-- contentContainer div holds page content -->
+        <div id="contentContainer">
 
 
-    </header>
+            <%= yield %> <!-- all variable page content goes here -->
 
-
-      <!-- contentContainer div holds page content -->
-      <div id="contentContainer">
-
-
-          <%= yield %> <!-- all variable page content goes here -->
-
-
-
-      </div>   <!-- end of contentContainer div -->
-
-
-      <footer>
+            <footer>
             <!-- styled in css -->
-      </footer>
+            </footer>
+
+            
+        </div>   <!-- end of contentContainer div -->
 
 
-      <!-- border div is outside the contentContainer div -->
-      <!-- This is simply a div that contains border in CSS. Placed at bottom so it shows on top of the rest of body content. -->
-      <div class="border">
-        <!-- leave empty, styled in CSS -->
-      </div>
+    </div> <!-- end main container -->
+
+
+
+    <!-- border div is outside the contentContainer div -->
+    <!-- This is simply a div that contains border in CSS. Placed at bottom so it shows on top of the rest of body content. -->
+    <div class="border">
+    <!-- leave empty, styled in CSS -->
+    </div>
 
 
     <script type="text/javascript" src="main.js"> </script>

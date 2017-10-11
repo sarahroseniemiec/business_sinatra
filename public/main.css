@@ -198,7 +198,6 @@ nav a {
   font-size: 20px;
   color: #2B2B2B;
   text-decoration: none;
-
 }
 
 nav a:hover {
@@ -628,3 +627,1346 @@ textarea:focus {
   margin: 30px;
 }
 /*end about page style*/
+
+
+/*media queries*/
+@media (min-width: 320px) {
+
+    .mainContainer {
+      margin: auto;
+      top: 0;
+      right: 0;
+      left: 0%;
+      bottom: 0;
+      width: 90%;
+    }
+
+    header {
+      top: 30px;
+    }
+
+    #logo {
+      margin-left: 23%;
+      margin-right: 30%;
+      width: 150px;
+      height: 150px;
+    }
+
+    #contentContainer {
+      top: 290px;
+      width: 100%;
+    }
+
+    /* nav style*/
+    .startnav {
+      top: 210px;
+      width: 86%;
+    }
+
+    .fixnav {
+      top: 20px;
+      width: 86%;
+    }
+
+    nav a {
+      padding-left: 8px;
+      padding-right: 8px;
+      font-size: 13px;
+    }
+
+    nav .leafIcon {
+      width: 5px;
+      height: 5px;
+    }
+
+    #basket {
+      font-size: 20px;
+    }
+
+    #cartnum {
+      left: -10px;
+      font-size: 12px;
+    }
+
+    #followUs {
+      top: 10px;
+      left: 0px;
+    }
+
+    #followUs img {
+      width: 35px;
+      height: 35px;
+    }
+
+    /*home page style*/
+    #h-section1 {
+      height: 165px;
+    }
+
+    #h-h1 {
+      font-size: 18px;
+    }
+
+    #home-h1 {
+      font-size: 18px;
+    }
+
+    #hcarImg {
+      width: 100%;
+    }
+
+    #h-carousel {
+      height: 145px;
+    }
+
+    #sillA{
+      width: 100%;
+    }
+
+    #h-articles {
+      position: relative;
+      padding-top: 0;
+      height: 630px;
+    }
+
+    #h-article1 {
+      width: 93%;
+      height: 285px;
+      margin-top: 0;
+    }
+
+    #h-article1 p {
+      width: 90%;
+      max-width: 450px;
+    }
+
+    #h-article1 img {
+      width: 90%;
+      max-width: 450px;
+      height: 43%;
+    }
+
+    #h-article2 {
+      width: 93%;
+      height: 285px;
+      left: 0px;
+    }
+
+    #h-article2 p {
+      width: 90%;
+      max-width: 450px;
+    }
+
+    #h-article2 img {
+      width: 90%;
+      max-width: 450px;
+      height: 43%;
+    }
+
+    #h-favorites {
+      height: 200px;
+    }
+
+    .h-favoritesContainer {
+      margin: auto;
+      position: relative;
+      top: 5px;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      padding: 3%;
+    }
+
+    .h-splat {
+      width: 28%;
+      height: 28%;
+      margin: 2%;
+    }
+
+    .h-simage {
+      width: 100%;
+      height: 100%;
+    }
+
+    .border {
+      height: 20px;
+    }
+
+    footer {
+      left: -40px;
+      width: 120%;
+      height: 150px;
+      bottom: 0px;
+    }
+}
+
+/* iPhone 4/4S */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+  .mainContainer {
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0%;
+    bottom: 0;
+    width: 90%;
+  }
+
+  header {
+    top: 30px;
+  }
+
+  #logo {
+    margin-left: 23%;
+    margin-right: 30%;
+    width: 150px;
+    height: 150px;
+  }
+
+  #contentContainer {
+    top: 290px;
+    width: 100%;
+  }
+
+  /* nav style*/
+  .startnav {
+    top: 210px;
+    width: 88%;
+  }
+
+  .fixnav {
+    top: 20px;
+    width: 88%;
+  }
+
+  nav a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+  }
+
+  nav .leafIcon {
+    width: 5px;
+    height: 5px;
+  }
+
+  #basket {
+    font-size: 15px;
+  }
+
+  #cartnum {
+    left: -10px;
+    font-size: 10px;
+  }
+
+  #followUs {
+    top: 10px;
+    left: 0px;
+  }
+
+  #followUs img {
+    width: 35px;
+    height: 35px;
+  }
+
+  /*home page style*/
+  #h-section1 {
+    height: 135px;
+  }
+
+  #h-h1 {
+    font-size: 18px;
+  }
+
+  #home-h1 {
+    font-size: 18px;
+  }
+
+  #hcarImg {
+    width: 100%;
+  }
+
+  #h-carousel {
+    height: 123px;
+  }
+
+  #sillA{
+    width: 100%;
+  }
+
+  #h-articles {
+    position: relative;
+    padding-top: 0;
+    height: 630px;
+  }
+
+  #h-h3 {
+    font-size: 16px;
+  }
+
+  #h-article1 {
+    width: 93%;
+    height: 285px;
+    margin-top: 0;
+  }
+
+  #h-article1 p {
+    width: 90%;
+    max-width: 450px;
+    font-size: 14px;
+  }
+
+  #h-article1 img {
+    width: 90%;
+    max-width: 450px;
+    height: 43%;
+  }
+
+  #h-article2 {
+    width: 93%;
+    height: 285px;
+    left: 0px;
+  }
+
+  #h-article2 p {
+    width: 90%;
+    max-width: 450px;
+    font-size: 14px;
+  }
+
+  #h-article2 img {
+    width: 90%;
+    max-width: 450px;
+    height: 43%;
+  }
+
+  #h-favorites {
+    height: 200px;
+  }
+
+  .h-favoritesContainer {
+    margin: auto;
+    position: relative;
+    top: 5px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 3%;
+  }
+
+  .h-splat {
+    width: 28%;
+    height: 28%;
+    margin: 2%;
+  }
+
+  .h-simage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .border {
+    height: 20px;
+  }
+
+  footer {
+    left: -40px;
+    width: 120%;
+    height: 150px;
+    bottom: 0px;
+  }
+}
+
+/*iPhone5*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+
+  #logo {
+    margin-left: 23%;
+    margin-right: 30%;
+    width: 150px;
+    height: 150px;
+  }
+
+  #contentContainer {
+    top: 290px;
+    width: 100%;
+  }
+
+  /* nav style*/
+  .startnav {
+    top: 210px;
+    width: 88%;
+  }
+
+  .fixnav {
+    top: 20px;
+    width: 88%;
+  }
+
+  nav a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+  }
+
+  #basket {
+    font-size: 15px;
+  }
+
+  #cartnum {
+    left: -10px;
+    font-size: 10px;
+  }
+
+  /*home page style*/
+  #h-section1 {
+    height: 135px;
+  }
+
+  #h-h1 {
+    font-size: 18px;
+  }
+
+  #home-h1 {
+    font-size: 18px;
+  }
+
+  #h-carousel {
+    height: 123px;
+  }
+
+  #h-h3 {
+    font-size: 16px;
+  }
+
+  #h-article1 {
+    width: 93%;
+    height: 285px;
+    margin-top: 0;
+  }
+
+  #h-article1 p {
+    width: 90%;
+    max-width: 450px;
+    font-size: 14px;
+  }
+
+  #h-article2 {
+    width: 93%;
+    height: 285px;
+    left: 0px;
+  }
+
+  #h-article2 p {
+    width: 90%;
+    max-width: 450px;
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 400px) {
+
+  .mainContainer {
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0%;
+    bottom: 0;
+    width: 90%;
+  }
+
+  header {
+    top: 30px;
+  }
+
+  #logo {
+    margin-left: 27%;
+    margin-right: 30%;
+    width: 150px;
+    height: 150px;
+  }
+
+  #contentContainer {
+    top: 290px;
+    width: 100%;
+  }
+
+  /* nav style*/
+  .startnav {
+    top: 210px;
+    width: 88%;
+  }
+
+  .fixnav {
+    top: 20px;
+    width: 88%;
+  }
+
+  nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+  }
+
+  nav .leafIcon {
+    width: 5px;
+    height: 5px;
+  }
+
+  #basket {
+    font-size: 20px;
+  }
+
+  #cartnum {
+    left: -10px;
+    font-size: 12px;
+  }
+
+  #followUs {
+    top: 10px;
+    left: 0px;
+  }
+
+  #followUs img {
+    width: 35px;
+    height: 35px;
+  }
+
+  /*home page style*/
+  #h-section1 {
+    height: 165px;
+  }
+
+  #h-h1 {
+    font-size: 22px;
+  }
+
+  #home-h1 {
+    font-size: 22px;
+  }
+
+  #hcarImg {
+    width: 100%;
+  }
+
+  #h-carousel {
+    height: 160px;
+  }
+
+  #sillA{
+    width: 100%;
+  }
+
+  #h-articles {
+    position: relative;
+    padding-top: 0;
+    height: 560px;
+  }
+
+  #h-article1 {
+    width: 93%;
+    height: 255px;
+    margin-top: 0;
+  }
+
+  #h-article1 p {
+    width: 90%;
+    max-width: 450px;
+  }
+
+  #h-article1 img {
+    width: 90%;
+    max-width: 450px;
+    height: 43%;
+  }
+
+  #h-article2 {
+    width: 93%;
+    height: 255px;
+    left: 0px;
+  }
+
+  #h-article2 p {
+    width: 90%;
+    max-width: 450px;
+  }
+
+  #h-article2 img {
+    width: 90%;
+    max-width: 450px;
+    height: 43%;
+  }
+
+  #h-favorites {
+    height: 200px;
+  }
+
+  .h-favoritesContainer {
+    margin: auto;
+    position: relative;
+    top: 5px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 3%;
+  }
+
+  .h-splat {
+    width: 28%;
+    height: 28%;
+    margin: 2%;
+  }
+
+  .h-simage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .border {
+    height: 20px;
+  }
+
+  footer {
+    left: -40px;
+    width: 120%;
+    height: 150px;
+    bottom: 0px;
+  }
+}
+
+
+@media (min-width: 550px) {
+
+  .mainContainer {
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0%;
+    bottom: 0;
+    width: 90%;
+  }
+
+  header {
+    top: 30px;
+    width: 100%;
+  }
+
+  #logo {
+    margin-left: 34%;
+    margin-right: 34%;
+    width: 200px;
+    height: 200px;
+  }
+
+  #contentContainer {
+    top: 360px;
+    width: 100%;
+  }
+
+  /* nav style*/
+  .startnav {
+    top: 255px;
+    width: 89%;
+  }
+
+  .fixnav {
+    width: 86%;
+  }
+
+  nav a {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  #followUs {
+    top: 60px;
+    left: 0px;
+  }
+
+  /*home page style*/
+  #hcarImg {
+    width: 100%;
+  }
+
+  #sillA{
+    width: 100%;
+  }
+
+  #h-articles {
+    position: relative;
+    top: -10px;
+    padding-top: 0;
+  }
+
+  #h-article1 {
+    width: 46%;
+    height: 305px;
+  }
+
+  #h-article1 p {
+    width: 95%;
+    max-width: 450px;
+  }
+
+  #h-article1 img {
+    width: 95%;
+    max-width: 450px;
+  }
+
+  #h-article2 {
+    width: 46%;
+    height: 305px;
+  }
+
+  #h-article2 p {
+    width: 95%;
+    max-width: 450px;
+  }
+
+  #h-article2 img {
+    width: 95%;
+    max-width: 450px;
+  }
+
+  .h-favoritesContainer {
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+  }
+
+  .h-splat {
+    width: 25%;
+    height: 25%;
+  }
+
+  .h-simage {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 750px) {
+
+  .border {
+    background-color: #03EBA6;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+  }
+
+  #contentContainer {
+    background-color: white;
+    position: relative;
+    margin: auto;
+    top: 310px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 980px;
+  }
+
+  header {
+    position: absolute;
+    width: 100%;
+  }
+
+  #logo {
+    position: absolute;
+    margin: auto;
+    top: 280px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 200px;
+    height: 200px;
+  }
+
+  /*followUs div*/
+  #followUs {
+    position: absolute;
+    margin: 0px;
+    top: 50px;
+    left: 20px;
+    width: 47px;
+    height: 192px;
+  }
+
+  #fBook {
+    display: block;
+    width: 47px;
+    height: 48px;
+  }
+
+  #tweet{
+    display: block;
+    width: 47px;
+    height: 48px;
+  }
+
+  #pin {
+    display: block;
+    width: 47px;
+    height: 48px;
+  }
+
+  #insta{
+    display: block;
+    width: 47px;
+    height: 48px;
+  }
+
+  /* nav style*/
+  .startnav {
+    position: absolute;
+    background-color: white;
+    top: 237px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .leafIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  #basket {
+    font-size: 35px;
+    margin: 0px;
+  }
+
+  #basket:hover {
+    color: #03EBA6;
+  }
+
+  #cartnum {
+    position: relative;
+    top: 8px;
+    left: -75px;
+    margin: 0px;
+  }
+
+  #cartmodal {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    z-index: 150;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  #itemnum {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #clearbutton {
+    font-size: 20px;
+    background-color: #2B2B2B;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border-style: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 40px auto auto auto;
+
+  }
+
+  #clearbutton:hover {
+    background-color: #03EBA6;
+  }
+
+  #checkout {
+    font-size: 30px;
+    background-color: #2B2B2B;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border-style: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 40px auto auto auto;
+    text-decoration: none;
+
+  }
+
+  #checkout:hover {
+    background-color: #03EBA6;
+  }
+
+  #clearclose {
+    float: right;
+    display: inline;
+    border-style: none;
+    font-size: 20px;
+    background-color: white;
+  }
+
+  #clearclose:hover {
+    color: #03EBA6;
+  }
+
+  #cmodaloverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 43, 43, 0.5);
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 100;
+  }
+
+  nav a {
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 20px;
+    color: #2B2B2B;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+    color: #03EBA6;
+  }
+
+  .fixnav {
+    position: fixed;
+    background-color: white;
+    top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+  }
+
+  /*footer style*/
+  footer {
+    background-image: url("http://www.snazzyspace.com/wallpapers/7b7b7b_grey-polka-dots.png");
+    position: relative;
+    width: 102%;
+    height: 225px;
+    left: -10px;
+    bottom: -130px;
+  }
+  /*this is the end of the layout template style*/
+
+
+  /*home page style*/
+  #h-carousel {
+    width: 980;
+    height: 400px;
+  }
+
+  #h-section1 {
+    height: 300px;
+  }
+
+  #home-h1  {
+    background-color: #03EBA6;
+    position: relative;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  #h-h1 {
+    background-color: white;
+    font-family: 'Questrial', sans-serif;
+    color: #03EBA6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #sillA:hover {
+    opacity: .7;
+  }
+
+  #h-articles {
+    height: 355px;
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  #h-articles a {
+    color: #2B2B2B;
+    text-decoration: none;
+  }
+  #h-articles a:hover {
+    color: #8F8F8F;
+  }
+
+  #h-article1 {
+    border: 1px solid #a8a8a8;
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    padding-left: 20px;
+    width: 450px;
+    height: 290px;
+  }
+
+  #h-article1 img {
+    width: 400px;
+    height: 150px;
+  }
+
+  #h-article2 {
+    border: 1px solid #a8a8a8;
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    padding-left: 20px;
+    left: 35px;
+    width: 450px;
+    height: 290px;
+  }
+
+  #h-article2 h3 {
+    left: 50px;
+  }
+
+  #h-article2 img {
+    width: 400px;
+    height: 150px;
+  }
+
+  #h-h3  {
+    font-family: 'Questrial', sans-serif;
+  }
+
+  #h-byLine {
+    color: #8F8F8F;
+  }
+
+  #h-favorites {
+    margin: 0px;
+  }
+
+  #h-favorites h1 {
+    margin-top: 10px;
+  }
+
+  .h-favoritesContainer {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-bottom: 280px;
+  }
+
+  /*using style from shop page for consistency*/
+  .h-simage {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .h-simage:hover {
+    border: 7px solid #03EBA6;
+    width: 235px;
+    height: 235px;
+  }
+
+  .h-splat {
+    display: inline-block;
+    width: 250px;
+    margin: 30px;
+  }
+  /*end home page style*/
+
+
+  /*shop page*/
+  #shop {
+    background-color: white;
+    border-bottom: 1px solid #03EBA6;
+    border-top: 1px solid #03EBA6;
+    font-family: 'Questrial', sans-serif;
+    color: #03EBA6;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .simage {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+
+  .simage:hover {
+    border: 7px solid #03EBA6;
+    width: 337px;
+    height: 337px;
+
+  }
+
+  .splantname {
+    width: 350px;
+    font-size: 25px;
+    padding-top: 20px;
+  }
+
+  .sline {
+    text-align: center;
+    color: #8F8F8F;
+  }
+
+  .splat {
+    display: inline-block;
+    width: 350px;
+    margin: 25px;
+  }
+
+  #sCactus {
+    padding-bottom: 300px;
+  }
+
+  /*shop modal*/
+  .smodaloverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 43, 43, 0.5);
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 100;
+  }
+
+  .smodal {
+    background-color: white;
+    width: 900px;
+    position: fixed;
+    z-index: 200;
+    top: 50px;
+    background-color: white;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .simagemodal {
+    width: 500px;
+    float: left;
+  }
+
+  .splanthead {
+    font-family: 'Questrial', sans-serif;
+    font-size: 40px;
+    color: #2B2B2B;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .sprice {
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color: #03EBA6;
+    text-align: center;
+  }
+
+  .splantinfo {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .slist {
+    font-family: 'Lato', sans-serif;
+    color: #8F8F8F;
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    list-style-position:inside;
+  }
+
+  .sclosebutt {
+    float: right;
+    display: inline;
+    border-style: none;
+    font-size: 20px;
+    background-color: white;
+  }
+
+  .sclosebutt:hover {
+    color: #03EBA6;
+  }
+
+  .scartbutt {
+    font-size: 20px;
+    background-color: #2B2B2B;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border-style: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 40px auto auto auto;
+
+  }
+
+  .scartbutt:hover {
+    background-color: #03EBA6;
+  }
+
+  button:focus {
+    outline: none;
+  }
+  /*end shop page style*/
+
+
+  /*contact page*/
+  #contact {
+    background-color: white;
+    border-bottom: 1px solid #03EBA6;
+    border-top: 1px solid #03EBA6;
+    font-family: 'Questrial', sans-serif;
+    color: #03EBA6;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #contactpic {
+    width: 400px;
+    float: right;
+  }
+
+  .cform {
+    text-align: center;
+    margin-bottom: 390px;
+  }
+
+  .cinput {
+    border: 1px solid #8F8F8F;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 10px 10px 20px 10px;
+    padding: 5px;
+    width: 240px;
+  }
+
+  .cinput:focus {
+      outline: none;
+      border: 2px solid #2B2B2B;
+  }
+
+  textarea {
+    border: 1px solid #8F8F8F;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 15px;
+  }
+
+  textarea:focus {
+    outline: none;
+    border: 2px solid #2B2B2B;
+  }
+
+  .cbutt {
+    font-size: 20px;
+    background-color: #2B2B2B;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border-style: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 40px auto 40px auto;
+  }
+
+  .cbutt:hover {
+    background-color: #03EBA6;
+    color: #2B2B2B;
+  }
+
+  #formCont{
+    position: relative;
+    top: 40px;
+  }
+  /*end contact page style*/
+
+
+  /*about page style*/
+  #a-heroImg {
+    width: 980;
+    height: 400px;
+  }
+
+  #a-h1 {
+    background-color: white;
+    border-bottom: 1px solid #03EBA6;
+    border-top: 1px solid #03EBA6;
+    font-family: 'Questrial', sans-serif;
+    color: #03EBA6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .a-p {
+    line-height: 30px;
+  }
+
+  .a-section2 {
+    width: 980px;
+    padding-top: 20px;
+    padding-bottom: 270px;
+  }
+
+  /*using style from shop page for consistency*/
+  .a-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .a-cust1 {
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    width: 250px;
+    margin: 30px;
+  }
+
+  .a-cust2 {
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    width: 250px;
+    margin: 30px;
+  }
+  /*end about page style*/
+
+}
